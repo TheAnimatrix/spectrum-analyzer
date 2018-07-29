@@ -9,10 +9,10 @@ the data should also be wired to the cloud where it can be used to act as an inp
 
 The inputs could be :
 
-1.sound waves
-2.light with the help of a ccd
-3.eeg , emg [Hello OPAMPS!]
-4.whatever you want.
+1.sound waves \n
+2.light with the help of a ccd \n
+3.eeg , emg [Hello OPAMPS!] \n
+4.whatever you want. \n
 
 yeah that's a pretty good summary imo . (according to the current me , wait for me to read it again a while later and i'm sure i wont say the same)
 
