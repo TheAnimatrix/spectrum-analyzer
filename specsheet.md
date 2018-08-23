@@ -1,7 +1,7 @@
 **SPECIFICATION DETAILS OF SPECTRUM ANALYZER**
 ----------------------------------------------
 
-1.Bit Depth of ADC/n
+1.Bit Depth of ADC\n
 2.Frequency Range/n
 3.Sampling rate of ADC/n
 4.Noise Level Management/n
