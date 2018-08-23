@@ -47,3 +47,16 @@ NOTE:-
 2. Using a relatively lower sampling rate induces a distortion called aliasing , need to learn more about that.
 3. Understand limitations of various hardware arduino , nodemcu , arm etc.. and what are the features lost / cost saved / portability . Find a good ratio .
 
+TO BE INCLUDED:-
+-----------------
+More technical analysis with respect to part usage and how each part chosen increases the reliability/availability/usability/range of this analyzer. Every Problem encountered must be detailed in Errors.md regardless of it's doltishness.
+
+Technical Roadmap. Prototype parts. Product parts, etc. must be analyzed and mentioned
+
+
+
+# MAINLY
+--------------
+
+NO ASSUMPTIONS MUST BE MADE AT ANY POINT IN THIS PROJECT AND EACH QUESTION MUST BE ANSWERED AS TECHNICALLY AS POSSIBLE.
+POWER MANAGEMENT, LOGIC EFFICIENCY, WHAT BIT DEPTH WAS CHOSEN AND WHY, etc.
