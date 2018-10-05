@@ -27,7 +27,7 @@ __*2. Sampling rate*__ -> I don't need to explain this , anyways for the sake of
 
 __*3. Quantization*__ : (Enter: Noise) :=> Well this is basically intrinsic to the ADC AFAIK. This process is just simple rounding off to a level that our bit depth can match. Example : Take a normal sinusoidal signal with values upto 5V(Amplitude.) , When i sample it i'm going to end up with values like 4.2451 V or 1.12415 V. This requires quantization. Essentially splitting a signal into levels, 1 bit quantization results in 2^1=2 levels therefore i'm going to do something like all values 2.5-5V are rounded to 1 and all values from 0-2.49 are rounded to 0. Similarly 10 bit quantization will split the signal and round to 2^10 levels. This is part of sampling and like all sampling methods. It's mapping a lot of data into a small set (-∞,∞) to (-512,512) levels for 10 bit quantization. 
 
-__*4. Aliasing*__ , Part of the whole sampling process. This is when we are unable to construct an approximation of the original signal by sampling, Due to lack in bit depth. For audio, it's temporal aliasing and for music it's spatial aliasing. Wiki link.
+__*4. Aliasing*__ , Part of the whole sampling process. This is when we are unable to construct an approximation of the original signal by sampling, Due to lack in bit depth. For audio, it's temporal aliasing and for video it's spatial aliasing. Wiki link.
 
 How the spectrum analyzer would work :
 ---------------------------------------
